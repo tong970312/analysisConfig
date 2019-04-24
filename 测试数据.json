@@ -1,0 +1,326 @@
+//年假
+{
+	"isAnnualLeave": 0,
+	"isDiffEntryYears": 0,
+	"notDistinguishEntryYearsColumn": {
+		"entryMonths": 6,
+		"workMonths": 12,
+		"annualLeaveDays": 5
+	},
+	"distinguishEntryYearsColumn": [{
+			"minEntryYears": 1,
+			"maxEntryYears": 10,
+			"annualLeaveDays": 2
+		},
+		{
+			"minEntryYears": 2,
+			"maxEntryYears": 20,
+			"annualLeaveDays": 3
+		}
+	],
+	"isIncludeWeekendAndHoliday": 0,
+	"noAnnualLeaveSettingColumn": [{
+			"minEntryYearAmount": 1,
+			"maxEntryYearAmount": 10,
+			"leaveType": 1,
+			"leaveDays": 1
+		},
+		{
+			"minEntryYearAmount": 2,
+			"maxEntryYearAmount": 20,
+			"leaveType": 2,
+			"leaveDays": 2
+		}
+	],
+	"noAnnualLeaveUserIds": "1,2,3",
+	"noAnnualLeaveUserNames": "郑凯,王立帅,何伟杰",
+	"annualLeaveMinUnit": 1,
+	"thisYearAnnualLeaveSettingColumn": [{
+			"minDays": 0.2,
+			"maxDays": 0.5,
+			"annualLeaveDays": 0.5
+		},
+		{
+			"minDays": 0.2,
+			"maxDays": 0.5,
+			"annualLeaveDays": 0.5
+		}
+	],
+	"isRuleTimeUse": 1,
+	"annualLeaveExpirationDate": "04-14"
+}
+
+//婚假
+{
+	"isConfigByRegion": 1,
+	"marriageLeaveConfigs": [{
+			"isGeneralConfiguration": 1,
+			"ruleSettingRegion": "1,2,3",
+			"isMarriageLeave": 0,
+			"isDiffEntryYears": 0,
+			"marriageLeaveDays": 3,
+			"firstAndNextMarriageLeaveSettingColumn": {
+				"marriageTimes": 2,
+				"thisTimeMarriageLeaveDays": 5
+			},
+			"isIncludeWeekendAndHoliday": 0,
+			"isLimtVacationTime": 0,
+			"useMarriageLeaveLimitMonths": 1,
+			"isHaveLateMarriageLeave": 0,
+			"maleLateMarriageAge": 30,
+			"frmaleLateMarriageAge": 28,
+			"lateMarriageLeaveDays": 2
+		},
+		{
+			"isGeneralConfiguration": 1,
+			"ruleSettingRegion": "3,2,1",
+			"isMarriageLeave": 0,
+			"isDiffEntryYears": 0,
+			"marriageLeaveDays": 3,
+			"firstAndNextMarriageLeaveSettingColumn": {
+				"marriageTimes": 2,
+				"thisTimeMarriageLeaveDays": 5
+			},
+			"isIncludeWeekendAndHoliday": 0,
+			"isLimtVacationTime": 0,
+			"useMarriageLeaveLimitMonths": 1,
+			"isHaveLateMarriageLeave": 0,
+			"maleLateMarriageAge": 30,
+			"frmaleLateMarriageAge": 28,
+			"lateMarriageLeaveDays": 2
+		}
+	]
+}
+
+//丧假
+{
+	"isFuneralLeave": 0,
+	"oneTimeFuneralLeaveDays": 5,
+	"isIncludeWeekendAndHoliday": 0
+}
+
+//产假
+{
+	"isConfigByRegion": 1,
+	"MaternityLeaveConfigs": [{
+			"isGeneralConfiguration": 1,
+			"ruleSettingRegion": "1,2,3",
+			"isMaternityLeave": 0,
+			"maternityLeaveDays": 98,
+			"prenatalMaternityLeaveDays": 30,
+			"postnatalMaternityLeaveDays": 68,
+			"dystociaAddDays": 68,
+			"unitMultipleBirthsAddDays": 10,
+			"lateChildbirthAge": 32,
+			"lateChildAddDays": 15,
+			"abortionMaternityLeaveSettingColum": [{
+					"pregnancyMonths": 2,
+					"abortionMaternityLeaveDays": 15
+				},
+				{
+					"pregnancyMonths": 4,
+					"abortionMaternityLeaveDays": 30
+				}
+			]
+		},
+		{
+			"isGeneralConfiguration": 1,
+			"ruleSettingRegion": "1,2,3",
+			"isMaternityLeave": 0,
+			"maternityLeaveDays": 98,
+			"prenatalMaternityLeaveDays": 30,
+			"postnatalMaternityLeaveDays": 68,
+			"dystociaAddDays": 68,
+			"unitMultipleBirthsAddDays": 10,
+			"lateChildbirthAge": 32,
+			"lateChildAddDays": 15,
+			"abortionMaternityLeaveSettingColum": [{
+					"pregnancyMonths": 2,
+					"abortionMaternityLeaveDays": 15
+				},
+				{
+					"pregnancyMonths": 4,
+					"abortionMaternityLeaveDays": 30
+				}
+			]
+		}
+	]
+}
+
+//产检假
+
+{
+	"isPrenatalCheckUpLeave": 0,
+	"prenatalCheckUpLeaveSettingColumn": [{
+			"pregnancyStartWeeks": 2,
+			"pregnancyEndWeeks": 3,
+			"quantityUnit": 1,
+			"quantityUnitTimeType": 1,
+			"prenatalCheckUpLeaveDays": 15,
+			"isIncludeExpectedDate": 0
+		},
+		{
+			"pregnancyStartWeeks": 2,
+			"pregnancyEndWeeks": 3,
+			"quantityUnit": 1,
+			"quantityUnitTimeType": 1,
+			"prenatalCheckUpLeaveDays": 15,
+			"isIncludeExpectedDate": 0
+		}
+	],
+	"isIncludeWeekendAndHoliday": 0
+}
+
+//陪护假
+{
+	"isConfigByRegion": 1,
+	"paternityLeaveConfigs": [{
+			"applyPaternityLeaveStaffGender": 0,
+			"isFirstAndSecondPaternityLeaveSame": 0,
+			"childPaternityLeaveDays": 10,
+			"firstChildPaternityLeaveDays": 10,
+			"paternityLeaveSettingColumn": [{
+					"childAmount": 2,
+					"thisAmountChildPaternityLeaveDays": 15
+				},
+				{
+					"childAmount": 1,
+					"thisAmountChildPaternityLeaveDays": 11
+				}
+			],
+			"secondChildPaternityLeaveDays": 10,
+			"isIncludeWeekendAndHoliday": 0
+		},
+		{
+			"applyPaternityLeaveStaffGender": 0,
+			"isFirstAndSecondPaternityLeaveSame": 0,
+			"childPaternityLeaveDays": 10,
+			"firstChildPaternityLeaveDays": 10,
+			"paternityLeaveSettingColumn": [{
+					"childAmount": 2,
+					"thisAmountChildPaternityLeaveDays": 15
+				},
+				{
+					"childAmount": 1,
+					"thisAmountChildPaternityLeaveDays": 11
+				}
+			],
+			"secondChildPaternityLeaveDays": 10,
+			"isIncludeWeekendAndHoliday": 0
+		}
+	]
+}
+
+//哺乳假
+
+{
+	"isBreastfeedingLeave": 0,
+	"isSameInFirstChildAndSecondChild": 0,
+	"firstChildPaternityLeaveHours": 1,
+	"firstChildMultipleBirthsAmounts": 1,
+	"firstChildPaternityLeaveAddHours": 1,
+	"firstChildPaternityLeaveDays": 22,
+	"secondChildPaternityLeaveHours": 1,
+	"secondChildMultipleBirthsAmounts": 1,
+	"secondChildPaternityLeaveAddHours": 1,
+	"secondChildPaternityLeaveDays": 22
+}
+
+//加班
+{
+	"notCountOvertimeUserIds": "100,200,300",
+	"notCountOvertimeUserNames": "张三,李四,王五",
+	"workDayAccountOvertimeIntervalsHours": 1,
+	"workDayOvertimeMinProcessHours": 1,
+	"workDayOvertimeMinAccountUnit": 0.5,
+	"workDayOvertimeApplicationCommitMaxTime": 21,
+	"weekendAndHolidayMinProcessHours": 2,
+	"weekendAndHolidayOvertimeMinAccountUnit": 0.5,
+	"weekendAndHolidayOvertimeApplicationCommitDays": 1,
+	"weekendAndHolidayOvertimeApplicationCommitMaxTime": 2
+}
+//迟到
+{
+	"minDeductionUnit": 15,
+	"monthlyBeLateAllowTimes": 5,
+	"nomalBeLateTimeRange": 30,
+	"firstDeductionUnit": 30,
+	"isUsedOvertimeDeduction": 0
+}
+
+//漏打卡
+{
+	"isPermitNotSignedAttendRecord": 0,
+	"permitNotSignedAttendRecordTimes": 3,
+	"preTimedeductionMinutes": 5,
+	"isUsedOvertimeDeduction": 0
+}
+
+//事假
+{
+	"personalLeaveMinProcessUnit": 0.5,
+	"processSubmitWorkdays": 4,
+	"isUsedOvertimeDeduction": 0
+}
+//倒休
+{
+	"isUserOverTimeForRetreat": 1,
+	"isAfterOvertimeDeductionBeforeRetreat": 1,
+	"isUsedOvertimeDeduction": 1
+}
+//旷工、早退、缺勤
+{
+	"isUsedOvertimeDeduction": 1
+}
+//病假
+{
+	"sickLeaveMinProcessUnit": 0.5
+}
+//通用配置
+{
+	"notAttendanceUserIds": "100,200,300",
+	"notAttendanceUserNames": "张三,李四,王五",
+	"notAttendanceDeptIds": "100,200,300",
+	"notAttendanceDeptNames": "张三,李四,王五",
+	"leaveUserSettingColumn": [{
+			"leaveUserMinLevel": 1,
+			"leaveUserMaxLevel": 5
+		},
+		{
+			"leaveUserMinLevel": 2,
+			"leaveUserMaxLevel": 3
+		}
+	],
+	"leaveStartDays": 1,
+	"leaveEndDays": 3,
+	"advanceProcessDays": 3,
+	"approveList": [{
+			"processUserType": 0,
+			"processUserId": 1,
+			"processUserName": " 某某某"
+		},
+		{
+			"processUserType": 1,
+			"processUserId": 2,
+			"processUserName": " 哈哈哈"
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
